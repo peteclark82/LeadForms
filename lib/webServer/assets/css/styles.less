@@ -1,0 +1,20 @@
+html {
+  &,body { font-size: 15px; height: 100%; }
+
+  body { font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #555555; background: #FFFFFF; text-rendering: optimizeLegibility; margin: 0px; padding: 0px; min-width: 320px;
+
+    .view-leads {
+      .pagination { font-size:1.4em; font-style:normal;
+        .icon.left { margin:0 0.5em 0 0; }
+        .icon.right { margin:0 0.5em 0 0; }
+        a { font-weight:normal;
+          &:hover { font-weight:bold; color:blue;
+            .triangle.icon { color:blue; }
+          }
+        }
+        span { font-style:italic; }
+      }
+    }
+  }
+}
